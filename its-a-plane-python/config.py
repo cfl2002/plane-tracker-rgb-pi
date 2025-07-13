@@ -22,5 +22,5 @@ NIGHT_END = "06:00"
 GPIO_SLOWDOWN = 2 #depends what Pi you have I use 2 for Pi 3 and 1 for Pi Zero
 JOURNEY_CODE_SELECTED = "xxx" #your home airport code
 JOURNEY_BLANK_FILLER = " ? " #what to display if theres no airport code
-HAT_PWM_ENABLED = True #only if you have soldered the PWM bridge use False if you didn't
+HAT_PWM_ENABLED = False #only if you have soldered the PWM bridge use False if you didn't
 FORECAST_DAYS = 3 #today plus the next two days
